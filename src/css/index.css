@@ -1,0 +1,9 @@
+body{
+    background: #ccc url('../images/aaa.jpeg') no-repeat 0 0;
+}
+#div1 div{
+    width: 200px;
+    height: 200px;
+    background: red;
+    transform: rotate(45deg);
+}
