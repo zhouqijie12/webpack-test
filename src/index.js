@@ -10,3 +10,9 @@ document.getElementById('div1').appendChild(createElement());
 //     console.log(n ** 3)
 //     return n ** 5;
 // })
+
+import $ from 'jquery';
+
+console.log('这是a.js');
+console.log($('ul'));
+$('ul li:last-child').css('background','green');
